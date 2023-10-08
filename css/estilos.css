@@ -1,14 +1,13 @@
-.transparent-navbar {
-    background-color: rgba(255, 255, 255, 0.8);
+body {
+    background-color: #f8f9fa;
 }
 
-.navbar-brand img {
-    width: 30px; /* Ajusta el tamaño del icono según tus necesidades */
-    height: 30px;
+.navbar {
+    background-color: #007bff;
 }
 
-.navbar-text {
-    margin-left: 10px;
+.navbar-brand {
+    color: #fff;
     font-weight: bold;
 }
 
@@ -18,12 +17,12 @@
 }
 
 .navbar-nav .nav-link:hover {
-    background-color: #007bff;
     color: #fff;
 }
 
-.redes-sociales a img {
-    width: 30px; /* Ajusta el tamaño de los iconos de redes sociales según tus necesidades */
-    height: 30px;
-    margin-left: 10px;
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
