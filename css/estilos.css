@@ -1,4 +1,4 @@
-/*  Reseteo  */
+/*  Inicializacion  */
 * {
     padding: 0;
     margin: 0;
@@ -11,53 +11,24 @@
   min-height: 100vh;
  } */
 
- /* botonera */
+ /* Color de fondo de la barra de navegacion */
  .btn-outline:hover {
     background-color: #28a745;
     color: #fff; 
+}
+
+/* Desactivo el subrayado */
+.txt-verde {
+  color: #28a745 !important;
 }
 
 .txt {
   text-decoration: none;
 }
 
+/* Activo el subrayado y cambio el color */
 .txt-outline:hover {
-  text-decoration: #28a745;
-  color: #28a745;
+  color: #28a745 !important;
+  text-decoration: underline;
+  text-decoration-color: #28a745;
 }
-
-.footer-link:hover {
-     /* Verde */
-     /*background-color: #28a745;*/
-     /* Blanco */
-     /*color: #fff; */
-     /* Verde */
-     border-inline-color: #28a745;
-}
-
-/* .footer{
-  margin-top: auto;
-} */
-/* footer */
-/* .footer-style {
-    padding-top: 50px;
-    background-color: #2C3E50;
-}
-footer {
-  color: white;
-}
-footer h3 {
-  margin-bottom: 30px;
-    font-weight: 800;
-}
-footer .footer-above {
-  padding-top: 50px;
-  background-color: #2C3E50;
-}
-footer .footer-col {
-  margin-bottom: 50px;
-}
-footer .footer-below {
-  padding: 25px 0;
-  background-color: #233140;
-} */
